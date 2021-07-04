@@ -1,0 +1,106 @@
+/* Reset hrml */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* Css Variables */
+
+:root {
+  --primary-dark: rgb(0, 96, 150);
+  --primary-light: rgb(0, 133, 255);
+  --secondary: rgb(44, 49, 56);
+}
+
+/* Utility Classes */
+
+hr {
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* Navbar */
+.nav {
+  background-color: whitesmoke;
+  /* border-color: whitesmoke; */
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 80px;
+  max-width: 2000px;
+  margin: auto;
+  color: white;
+}
+
+/* Comapny Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100px;
+  margin: 0 10px;
+}
+.logo img {
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+/* Stling list items */
+nav .Menu {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+nav .Menu li {
+  margin: 0 20px;
+}
+nav .Menu li a {
+  display: block;
+  padding: 8px 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--primary-dark);
+  border: 2px solid var(--primary-dark);
+  font-size: 20px;
+  border-radius: 7px;
+}
+nav .Menu li a:hover {
+  background: var(--primary-dark);
+  color: whitesmoke;
+  box-shadow: 0 0 15px lightskyblue, 0 0 22px var(--primary-light);
+  transition: 0.5s;
+}
+
+/* open close Buttons */
+nav .openMenu {
+  font-size: 2rem;
+  margin-right: 18px;
+  display: none;
+  cursor: pointer;
+}
+nav .Menu .closeMenu {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}

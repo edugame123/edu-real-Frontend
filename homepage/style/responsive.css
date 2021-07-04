@@ -1,0 +1,54 @@
+/* NavBar */
+@media (max-width: 800px) {
+  nav .Menu {
+    height: 23rem;
+    position: fixed;
+    margin: 0;
+    top: -100%;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    padding: 1.3rem 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: var(--secondary);
+    transition: all 0.8s ease-in-out;
+    display: flex;
+    opacity: 0;
+    border-radius: 0 0 200rem 200rem;
+  }
+  nav .Menu li {
+    margin: 25px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+  .toggler {
+    display: inline-block;
+  }
+
+  nav .Menu li a {
+    padding: 8px 12px;
+    border-radius: 7px;
+    background-color: var(--primary-dark);
+    color: whitesmoke;
+  }
+  /* Footer */
+  .footer {
+    flex-direction: column;
+  }
+  .footer > div {
+    width: 90%;
+    margin: 2rem;
+  }
+
+  .footer > div:first-child {
+    border: none;
+    border-bottom: 2px solid white;
+  }
+  .footer > div small {
+    width: 90%;
+  }
+}

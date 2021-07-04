@@ -1,0 +1,58 @@
+.testimonilas {
+  /* border: 1px solid red; */
+  padding: 1rem;
+}
+
+.testimonilas > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 6rem;
+}
+
+/* User Boxes */
+.testimonilas .box {
+  border-radius: 1rem;
+  box-shadow: 10px 5px 9px -2px lightgrey;
+  width: 27rem;
+  position: relative;
+  padding: 1rem 2rem;
+  max-height: 50rem;
+  margin: 8rem 1.5rem;
+}
+
+/* Users Profile picture */
+.dp {
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  left: 30%;
+  top: -4.4rem;
+}
+
+.dp img {
+  width: 100%;
+  border-radius: 80%;
+}
+
+/* Box inside text  */
+
+.testimonilas .box header {
+  text-align: center;
+  margin-top: 4.7rem;
+  font-size: 1.7rem;
+}
+
+.testimonilas .box small {
+  display: block;
+  text-align: center;
+  padding: 0.4rem;
+  color: darkgrey;
+}
+
+.testimonilas .box p {
+  padding: 2rem 1rem;
+  line-height: 1.5rem;
+  color: grey;
+}
